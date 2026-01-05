@@ -1,0 +1,38 @@
+div {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #218838;
+}

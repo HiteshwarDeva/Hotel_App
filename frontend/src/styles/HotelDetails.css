@@ -1,0 +1,89 @@
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #444;
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Form layout */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+select,
+input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select:focus,
+input[type="date"]:focus {
+  outline: none;
+  border-color: #0077cc;
+  box-shadow: 0 0 5px rgba(0, 119, 204, 0.3);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Message styling */
+p.message {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+p.message.success {
+  color: #28a745;
+}

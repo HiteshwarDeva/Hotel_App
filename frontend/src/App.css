@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.auth-container { width: 300px; margin: 50px auto; display: flex; flex-direction: column; }
+.auth-container input, .auth-container select { margin-bottom: 10px; padding: 0.5rem; }
+.auth-container button { padding: 0.5rem; background: #1890ff; color: #fff; border: none; cursor: pointer; }
+.error { color: red; }

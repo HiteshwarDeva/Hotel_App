@@ -1,0 +1,71 @@
+.my-bookings-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.my-bookings-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Message */
+.message {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.message.success {
+  color: #28a745;
+}
+
+.message.error {
+  color: #d9534f;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+thead {
+  background-color: #0077cc;
+  color: white;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #d9534f;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c9302c;
+}
