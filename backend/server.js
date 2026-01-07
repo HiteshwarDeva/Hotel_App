@@ -30,6 +30,6 @@ app.use('/api/bookings', bookingRoutes);
 sequelize.sync({ alter: true }) // use { force: true } only for complete reset
   .then(() => {
     console.log('SQLite Database connected & synced');
-    app.listen(process.env.PORT || 5000, () => console.log('Server running on port ' + (process.env.PORT || 5000)));
+    app.listen(process.env.PORT || 5000,'0.0.0.0', () => console.log('Server running on port ' + (process.env.PORT || 5000)));
   })
   .catch(err => console.log('Database connection error:', err));
